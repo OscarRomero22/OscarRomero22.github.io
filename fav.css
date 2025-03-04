@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 125px;
+    padding: 0;
+    background-color: #ffc7ff
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+header img {
+    margin-left: 55px;
+}
+
+header nav {
+    margin-right: 55px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    margin: 0 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: pink;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+#niño {
+    text-align: center;
+    padding: 0;
+}
+
+#niño img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.pentagon {
+    background-color: #ffc7ff;
+    padding: 20px;
+    text-align: left;
+    color: #454545
+}
+
+.pentagon p {
+    font-size: 1.5rem;
+}
+
+.pentagon h2 {
+    font-size: 1.5rem;
+}
+
+
+.holas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("./imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.holas img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.holas a {
+    text-decoration: none;
+    color: #ffc7ff;
+    transition: color 0.3s;
+}
+
+.holas a:hover {
+    text-decoration: underline;
+}
+
+.holas article {
+    background-color: white;
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #ffc7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: gray;
+    gap: 65px;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+aside {
+    border-left: 2px solid gray;
+    padding-left: 15px;
+    font-size: 0.7rem;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+
+aside li {
+    margin: 0;
+    font-size: 0.7rem;
+}
